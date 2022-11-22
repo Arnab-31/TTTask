@@ -1,6 +1,6 @@
 # Internship Task
 
-This project fetches text file from the terribly tiny tales website, parses and calculates the frequency of all the words and finally creates a bar graph of the top 20 frequent words shwoing their frequnency.
+This project fetches text file from the terribly tiny tales website, parses and calculates the frequency of all the words and finally creates a bar graph of the top 20 frequent words showing their frequnency.
 
 
 ## Libraries & Packages
