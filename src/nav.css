@@ -1,0 +1,9 @@
+.navBar{
+    min-width: 100%;
+    background-color: black;
+    max-height: 70px;
+}
+
+.logo {
+    height: 70px
+}

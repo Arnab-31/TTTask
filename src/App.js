@@ -10,6 +10,7 @@ import './App.css';import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import { useState } from 'react';
+import Nav from './nav'
 
 
 ChartJS.register(
@@ -78,7 +79,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Terribly Tiny Tales</h1>
+      <Nav />
       <button onClick={fetchData}>Click to fetch</button>
       { xAxis  ?  <Bar options={options} data={data} /> : ""  }
     </div>
