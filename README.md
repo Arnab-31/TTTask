@@ -1,11 +1,11 @@
 # Internship Task
 
-This project fecthes text file from the terribly tiny tales website, parses and calculates the frequency of all the words and finally creates a bar graph of the top 20 frequent words shwoing their frequnency.
+This project fetches text file from the terribly tiny tales website, parses and calculates the frequency of all the words and finally creates a bar graph of the top 20 frequent words shwoing their frequnency.
 
 
 ## Libraries & Packages
 
-- React library has been used to create the frotnend
+- React library has been used to create the frontend
 - react-chartjs-2 npm package has been used to plot the bar graph in the frontend
 
 
