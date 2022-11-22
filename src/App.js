@@ -86,10 +86,6 @@ function App() {
         <Button onClickFunction={fetchData} text={"Fetch Data"} />
       </div>
       <div className='graphBox'>
-        { xAxis  ? 
-          <div>
-
-          </div> : ""} 
         { xAxis  ?  <Bar options={options} data={data} /> : ""  }
       </div>
       
