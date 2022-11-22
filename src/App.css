@@ -1,0 +1,10 @@
+.btnBox {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.graphBox {
+    max-width: 80vw;
+    margin: 0 10%;
+}

@@ -1,0 +1,20 @@
+.btn {
+    background-color: black;
+    color: white;
+    min-height: 30px;
+    padding: 3px 6px;
+    width: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn:hover{
+    box-shadow: 10px 5px 5px grey;
+    cursor: pointer;
+}
+
+.btn p{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

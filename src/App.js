@@ -11,6 +11,7 @@ import './App.css';import {
 import { Bar } from 'react-chartjs-2';
 import { useState } from 'react';
 import Nav from './nav'
+import Button from './button'
 
 
 ChartJS.register(
@@ -31,8 +32,10 @@ export const options = {
     },
     title: {
       display: true,
-      text: 'Chart.js Bar Chart',
+      text: '20 Most Frequent Words',
     },
+    maintainAspectRatio: false,
+    responsive: true,
   },
 };
 
@@ -74,14 +77,22 @@ function App() {
     const freq = topWords.map(x => x[1]);
     setxAxis(words);
     setyAxis(freq);
-    console.log(topWords);
   } 
   
   return (
     <div className="App">
       <Nav />
-      <button onClick={fetchData}>Click to fetch</button>
-      { xAxis  ?  <Bar options={options} data={data} /> : ""  }
+      <div className='btnBox'>
+        <Button onClickFunction={fetchData} text={"Fetch Data"} />
+      </div>
+      <div className='graphBox'>
+        { xAxis  ? 
+          <div>
+
+          </div> : ""} 
+        { xAxis  ?  <Bar options={options} data={data} /> : ""  }
+      </div>
+      
     </div>
   );
 }
